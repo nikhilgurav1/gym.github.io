@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+
+
+
+body{
+   font-family: "Mochiy Pop One",sans-serif;
+   display: flex;
+   justify-content: left;
+   align-items: left;
+   min-height: 100vh;
+   background: url('gymcontact.jpg');
+}
+input{
+   background-color: transparent;
+   display: flex;
+   padding: 15px;
+   margin: 5%;
+   border-radius: 10px;
+   width: 95%;
+   color: rgb(210, 226, 223);
+   border-color: aquamarine;
+}
+
+input:hover{
+   border-color: rgb(0, 255, 55);
+}
+.form{
+   padding-top: 10%;
+   padding-left: 10%;
+}
+button{
+   width: 115%;
+   padding: 15px;
+   color: aliceblue;
+   border-color: aquamarine;
+   background-color: transparent;
+   border-radius: 10px;
+}
+button:hover{
+ border-color: rgb(0, 255, 55);
+}
+
+legend{
+   padding-bottom: 15%;
+   size: 10px;
+}
+legend::before{
+   content: attr(data-text);
+    position: absolute;
+    color: var(--clr);
+}
+legend:hover::before{
+   width: 10%;
+    filter: drop-shadow(0 0 10px var(--clr));
+}

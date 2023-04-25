@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+
+
+body{ 
+    font-family: "Mochiy Pop One",sans-serif;
+    color: wheat ;
+    margin: 0px;
+    padding: 0px;
+    background: url('about.jpg');
+}
+
+h1{
+    text-align: center;
+    color: aliceblue;
+}
+
+div{
+    padding-top: 10%;
+    padding-left: 10%;
+}
